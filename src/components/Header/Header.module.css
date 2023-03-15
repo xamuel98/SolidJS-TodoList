@@ -3,10 +3,23 @@
     color: #fff;
     padding: 10px 20px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     color: #fff;
     font-weight: 500;
     font-size: 25px;
+}
+
+.href {
+    color: rgb(214, 214, 214);
+    text-decoration: none !important;
+    transition: .3s all;
+}
+
+.href:hover {
+    color: #fff;
+    transition: .3s all;
 }
